@@ -41,9 +41,9 @@ let m3 = new Mahasiswa("Rina", "202401110078", "IP243", "Teknik Komputer", "Jl. 
 
 // 🔹 Akses private (Alamat) lewat getter/setter
 console.log("=== Akses Private (Alamat) ===");
-console.log("Alamat Ani sebelum:", m2.getAlamat());
+console.log("Alamat ramdani sebelum:", m2.getAlamat());
 m2.setAlamat("Jl. Anggrek No. 99");  // ubah alamat
-console.log("Alamat Ani sesudah:", m2.getAlamat());
+console.log("Alamat ramdani sesudah:", m2.getAlamat());
 m2.setAlamat("");                     // invalid (ditolak)
 
 console.log("--------------------------");
