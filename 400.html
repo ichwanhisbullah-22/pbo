@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GUI Sederhana</title>
+
+    <style>
+        body {
+            background-image: url('download.png');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding-top: 100px;
+            color: white;
+        }
+
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <h1 id="title">Halo, Mahasiswa!</h1>
+
+    <button onclick="ubahTeks()">Klik Saya</button>
+
+    <script>
+        function ubahTeks() {
+            document.getElementById("title").innerText = "Teks berhasil diubah!";
+        }
+    </script>
+</body>
+</html>
